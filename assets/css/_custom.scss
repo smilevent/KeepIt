@@ -2,3 +2,9 @@
 // Custom style
 // ==============================
 // You can override the variables in _variables.scss to customize the style
+
+//社交图标稍稍往下移动，字体小一点
+div.social-links{
+    margin-top: 4em;
+    font-size: 0.8em;
+}
