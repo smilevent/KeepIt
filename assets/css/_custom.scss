@@ -8,3 +8,8 @@ div.social-links{
     margin-top: 4em;
     font-size: 0.8em;
 }
+
+//分类页的文章标题显示全
+.post-warp .archive-item-link{
+    overflow: inherit;
+}
