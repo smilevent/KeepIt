@@ -13,3 +13,27 @@ div.social-links{
 .post-warp .archive-item-link{
     overflow: inherit;
 }
+
+//h2 h3 前缀修改
+.post-warp{
+    .post-content{
+        h2::before {
+            content: none;
+            margin-right: 5px;
+            color: $light-post-link-color;
+            .dark-theme & {
+                color: $dark-post-link-color;
+            }
+        }
+
+        h3::before {
+            content: none;
+            margin-right: 5px;
+            color: $light-post-link-color;
+        
+            .dark-theme & {
+                color: $dark-post-link-color;
+            }
+        }
+    }
+}
